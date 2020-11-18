@@ -98,7 +98,7 @@ namespace UI
         {
             InitializeComponent();
 
-           
+
 
             this.Loaded += new RoutedEventHandler(TomatoClock_OnLoaded); //***加载倒计时
             //25分钟走完一个番茄钟
@@ -348,7 +348,7 @@ namespace UI
             //设置托盘的各个属性
             notifyIcon = new NotifyIcon();
             notifyIcon.Text = "桌面学习助手";
-            notifyIcon.Icon = new System.Drawing.Icon("./Image/spring.ico");
+            notifyIcon.Icon = new System.Drawing.Icon("./Image/Icon.ico");
             notifyIcon.Visible = true;
             notifyIcon.MouseClick += new System.Windows.Forms.MouseEventHandler(notifyIcon_MouseClick);
         }
